@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+            height: 29px;
+        }
+
+        .news {
+            margin: 50px auto;
+            width: 340px;
+            height: 600px;
+            background-color: #FFF;
+            font-size: 14px;
+        }
+
+        .news .head {
+            border-top: 2px solid #333;
+            border-bottom: 1px solid #d6d6d6;
+            /* overflow: hidden; */
+            height: 39.21px;
+            background-color: #F5F5F5;
+        }
+
+        .news .head a {
+            display: block;
+            padding: 10px;
+            margin-top: -1px;
+            border-top: 1px solid #000;
+            border-right: 1px solid #d6d6d6;
+            width: 52.74px;
+            height: 38px;
+            background-color: #fff;
+            font-size: 16px;
+            color: black;
+            text-align: center;
+            line-height: 19px;
+        }
+
+        .news .head a:hover {
+            color: #8d0000;
+            text-decoration: underline;
+        }
+
+        .news a img{
+            width: 160px;
+            height: 90px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .news .images {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .news .body li {
+            background: url(./imgs/news_m_04.png) no-repeat -475px -616px;
+            padding-left: 12px;
+        }
+
+        .news .body li a {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .news .body li a:hover {
+            color: #8d0000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="news">
+        <div class="head">
+            <a href="#">新闻</a>
+        </div>
+        <div class="images">
+            <a href="#"><img src="./imgs/样例图片1.png" alt="样例图片1"></a>
+            <a href="#"><img src="./imgs/样例图片2.png" alt="样例图片1"></a>
+        </div>
+        <div class="body">
+            <ul>
+                <li><a href="#">我市连续三季度居全省第一！</a></li>
+                <li><a href="#">张毅恭前往惠安调研优化营商环境工作</a></li>
+                <li><a href="#">张毅恭等与港区省级政协委员联谊会交流</a></li>
+                <li><a href="#">泉州梳理50条县域重点产业链！</a></li>
+                <li><a href="#">上榜！我市再增2家！</a></li>
+                <li><a href="#">事关泉州古城！重要方案发布！</a></li>
+                <li><a href="#">祝贺！全国表彰公示！泉州入选的是……</a></li>
+                <li><a href="#">连续三年全省居首！这一政策开花结果！</a></li>
+                <li><a href="#">张毅恭开展生态环境保护调研和巡林工作</a></li>
+                <li><a href="#">石狮：建设滨海田园风光 筑牢百姓共富梦</a></li>
+                <li><a href="#">28.75亿元！我市获批发行！</a></li>
+                <li><a href="#">通过省级审核项目479个，总投资约3929亿元！</a></li>
+                <li><a href="#">点赞！晋江这项工作在全省会议上作典型发言</a></li>
+                <li><a href="#">我市新增一批企业名单，约占全省1/4！</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
